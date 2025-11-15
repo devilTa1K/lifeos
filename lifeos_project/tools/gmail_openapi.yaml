@@ -1,0 +1,11 @@
+openapi: "3.0.0"
+info:
+  title: Gmail Quick API
+  version: 1.0.0
+paths:
+  /gmail/messages:
+    get:
+      summary: List unread messages
+      responses:
+        '200':
+          description: A list of messages

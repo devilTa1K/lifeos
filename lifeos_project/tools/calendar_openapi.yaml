@@ -1,0 +1,11 @@
+openapi: "3.0.0"
+info:
+  title: Calendar Quick API
+  version: 1.0.0
+paths:
+  /calendar/events:
+    get:
+      summary: Get upcoming events
+      responses:
+        '200':
+          description: A list of events

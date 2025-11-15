@@ -1,0 +1,12 @@
+{
+  "name": "lifeos",
+  "description": "Multi-agent personal operating system.",
+  "schema_version": "1.0",
+  "root_endpoint": "/run",
+  "capabilities": [
+    "planning",
+    "habit_tracking",
+    "inbox_triage",
+    "knowledge_summaries"
+  ]
+}
